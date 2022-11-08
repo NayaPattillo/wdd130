@@ -9,22 +9,24 @@ header{
     font-family: Barlow, Arial, "Calibri Light";
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: .9;
+   
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 nav a{
     text-align: center;
-    color: #FFB703;
-    background-color: #023047;
-    text-decoration: none;
-    padding: 35px;
-}
-nav a:hover{
     color: white;
     background-color: #219EBC;
-
+    text-decoration: none;
+    padding: 35px;
+    opacity: 1.0;
+}
+nav a:hover{
+    color: #FFB703;
+    background-color: #023047;
 }
 #logo_link{
     padding-top: 5px;
@@ -227,4 +229,67 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+}
+
+
+/* rivers css */
+
+#rivers-hero-img{
+    width: 100%;
+}
+#rivers-hero-msg {
+    width: 100%;
+    height: 150px;
+    grid-column: 1/4;
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    background-color: #023047;
+    color: #FFB703;
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.rivers-grid img {
+    border: 10px solid #FB8500;
+    box-shadow: 5px 5px 10px #023047;
+    width: 100%;
+    margin-top: 60px;
+}
+.rivers-grid p {
+    font-size: 15px;
+    text-align: center;
+    margin: 130px 5px 20px;
+}
+.rivers-grid h2 {
+    text-align: center;
+    display: block;
+    margin: 50px 5px 10px;
+}
+img.Idaho {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+img.Arizona {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+img.Utah {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+h2.Idaho, p.Idaho {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+h2.Arizona, p.Arizona {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+h2.Utah, p.Utah {
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
