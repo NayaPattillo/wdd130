@@ -1,7 +1,7 @@
 
 body{
-    max-width: 1600px;
     margin: auto;
+    height: 100%;
 }
 header{
     display: grid;
@@ -31,7 +31,7 @@ nav a:hover{
     background-color: #fff0ce;
     color: #ffa886;
 }
-#header_logo{
+.header_logo{
     width: 150px;
 }
 .logo_link{
@@ -43,13 +43,13 @@ header h4{
     grid-column-end: 5;
     text-align: right;
 }
-#banner{
+.banner{
     margin-top: -200px;
 }
-#banner_img{
+.banner_img{
     width: 100%;
 }
-#banner_msg{
+.banner_msg{
     background-color: #7ce2ba;
     color: #393548;
     text-align: center;
@@ -57,11 +57,12 @@ header h4{
     padding-bottom: 5px;
     font-family: "Shadows Into Light", Bradley Hand ITC, Ink Free;
     margin-top: -5px;
+    z-index: 3;
 }
-#banner_msg h3{
+.banner_msg h3{
     margin-top: 5px;
 }
-#banner_msg h1{
+.banner_msg h1{
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 50px;
@@ -123,7 +124,7 @@ main p{
 }
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 175px 1fr 175px;
     background-color: #ffa886;
     color: #393548;
 }
@@ -132,6 +133,7 @@ footer h4{
 }
 footer h2{
     text-align: center;
+    align-self: center;
     font-family: "Josefin Slab", Century, Bradley Hand ITC;
 }
 footer a{
@@ -148,4 +150,38 @@ footer a{
 footer a:hover{
     color: #ffa886;
     background-color: #fff0ce;
+}
+
+
+/*page 2 watercolor*/
+
+.bg-img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#w-para{
+    background-color: white;
+    border: 20px solid #ffa886;
+    padding: 60px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+
+#page_title{
+    color: #fff0ce;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Shadows Into Light", Bradley Hand ITC, Ink Free;
+    border: 10px solid #fff0ce;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
 }
