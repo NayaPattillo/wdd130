@@ -1,7 +1,6 @@
 
 body{
-    margin: auto;
-    height: 100%;
+    margin: 0 auto;
 }
 header{
     display: grid;
@@ -155,13 +154,6 @@ footer a:hover{
 
 /*page 2 watercolor*/
 
-.bg-img{
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-}
-
 #w-para{
     background-color: white;
     border: 20px solid #ffa886;
@@ -170,6 +162,12 @@ footer a:hover{
     z-index: 2;
 }
 
+.bg-img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
 
 #page_title{
     color: #fff0ce;
