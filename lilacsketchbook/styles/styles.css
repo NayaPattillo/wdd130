@@ -151,8 +151,8 @@ footer a:hover{
 }
 
 
-/*page 2 watercolor*/
-
+/*page 2 watercolor gallery scroll*/
+/*
 #w-para{
     background-color: white;
     border: 20px solid #ffa886;
@@ -197,7 +197,49 @@ header{
     padding: 20px;
     text-align: center;
 }
+*/
 
+/* page 2 water color */
+
+#elk{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 400px;
+    margin: 20px;
+}
+#fox{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 400px;
+    margin: 20px;
+}
+#house-w{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+#fish-w{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+}
+#girl{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 450px;
+    height: 500px;
+    margin: 20px;
+}
+#boat{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 400px;
+    margin: 20px;
+}
 
 /* page 3 acrylic */
 
@@ -221,7 +263,7 @@ header{
     font-family: "Shadows Into Light", Bradley Hand ITC, Ink Free;
     border: 10px solid #fff0ce;
     padding: 20px;
-    width: 20%;
+    width: 30%;
 }
 
 .banner_img{
